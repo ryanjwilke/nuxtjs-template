@@ -7,7 +7,10 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "cypress:open": "cypress open",
+    "cypress:e2e": "cypress open --browser chrome",
+    "cypress:e2e:silent": "cypress run"
   },
   "dependencies": {
     "core-js": "^3.9.1",

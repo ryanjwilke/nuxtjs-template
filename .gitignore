@@ -5,6 +5,10 @@ logs
 *.log
 npm-debug.log*
 
+# Cypress videos and screenshots
+/cypress/screenshots
+/cypress/videos
+
 # Runtime data
 pids
 *.pid
