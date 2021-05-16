@@ -3,7 +3,7 @@
   "viewportHeight": 720,
   "viewportWidth": 1280,
   "testFiles": "**/*.spec.js",
-  "baseUrl": "http://localhost:3000",
+  "fileServerFolder": "dist",
   "pluginsFile": "tests/plugins/index.js",
   "supportFile": false,
   "fixturesFolder": false,
