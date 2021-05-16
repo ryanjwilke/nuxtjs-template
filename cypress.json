@@ -4,7 +4,9 @@
   "testFiles": "**/*.spec.js",
   "baseUrl": "http://localhost:3000",
   "pluginsFile": "tests/plugins/index.js",
+  "supportFile": "tests/support/index.js",
   "fixturesFolder": "tests/fixtures",
   "integrationFolder": "tests/integration",
+  "videosFolder": "tests/videos",
   "screenshotsFolder": "tests/screenshots"
 }
