@@ -22,7 +22,7 @@ jobs:
           key: node-${{ hashFiles('**/package-lock.json') }}
       - run: npm install
         if: steps.cache.outputs.cache-hit != 'true'
-      - name: cypress run
+      - name: Run cypress run
         uses: cypress-io/github-action@v2
         with:
           build: npm run build
