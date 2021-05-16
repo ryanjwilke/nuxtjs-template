@@ -1,0 +1,36 @@
+name: Test
+
+on:
+  pull_request:
+    types: [opened, synchronize, labeled, ready_for_review]
+
+jobs:
+  ci:
+    name: CI Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: node_modules
+          key: node-${{ hashFiles('**/package-lock.json') }}
+      - run: npm install
+        if: steps.cache.outputs.cache-hit != 'true'
+      - name: cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          record: true
+          headless: true
+          browser: chrome
+          parallel: true
+          parallelism: 11
+          start: npm start
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
