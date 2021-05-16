@@ -8,9 +8,9 @@
     "dev": "nuxt",
     "build": "nuxt generate",
     "start": "nuxt start",
+    "test": "cypress run",
     "cypress:open": "cypress open",
-    "cypress:e2e": "cypress open --browser chrome",
-    "cypress:e2e:silent": "cypress run"
+    "cypress:e2e": "cypress open --browser chrome"
   },
   "dependencies": {
     "core-js": "^3.9.1",

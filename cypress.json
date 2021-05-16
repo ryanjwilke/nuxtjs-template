@@ -1,11 +1,14 @@
 {
   "testFiles": "**/*.spec.js",
   "baseUrl": "http://localhost:3000",
-  "componentFolder": "components",
-  "fixturesFolder": "cypress/fixtures",
-  "integrationFolder": "cypress/integration",
-  "pluginsFile": "cypress/plugins/index.js",
-  "screenshotsFolder": "cypress/screenshots",
-  "supportFile": "cypress/support/index.js",
-  "videosFolder": "cypress/videos"
+  "component": {
+    "componentFolder": "components",
+    "testFiles": "**/*.*spec.js",
+    "viewportHeight": 720,
+    "viewportWidth": 1280
+  },
+  "pluginsFile": "tests/plugins/index.js",
+  "fixturesFolder": "tests/fixtures",
+  "integrationFolder": "tests/integration",
+  "screenshotsFolder": "tests/screenshots"
 }

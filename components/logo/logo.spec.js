@@ -3,6 +3,7 @@ import Logo from './logo.vue'
 
 describe('Logo', () => {
   it('contains an svg', () => {
-    expect(true).to.equal(true)
+    mount(<Logo />)
+    cy.get('svg').should('exist')
   })
 })
