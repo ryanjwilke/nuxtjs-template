@@ -1,7 +1,9 @@
 export default {
+  mode: 'spa',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxtjs-template',
+    title: 'Nuxt.js Template',
     htmlAttrs: {
       lang: 'en',
     },
