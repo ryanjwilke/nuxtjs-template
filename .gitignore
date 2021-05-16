@@ -6,7 +6,8 @@ logs
 npm-debug.log*
 
 # Cypress videos and screenshots
-
+tests/screenshots
+tests/videos
 
 # Runtime data
 pids
