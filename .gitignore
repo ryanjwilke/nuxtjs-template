@@ -80,11 +80,13 @@ dist
 
 # IDE / Editor
 .idea
-.editorconfig
 
 # Service worker
 sw.*
 
-# Mac OSX
+# macOS
 .DS_Store
 .vercel
+
+# Vim swap files
+*.swp
