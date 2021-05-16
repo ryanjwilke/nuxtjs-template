@@ -1,8 +1,8 @@
 {
-  "name": "nuxtjs",
+  "name": "nuxtjs-template",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
+  "description": "A basic Nuxt.js template deployed on Vercel.",
+  "author": "ryanjwilke",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -10,9 +10,8 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+  "devDependencies": {}
 }
