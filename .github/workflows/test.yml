@@ -30,7 +30,6 @@ jobs:
           headless: true
           browser: chrome
           parallel: true
-          parallelism: 11
           config-file: tests/cypress.json
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
