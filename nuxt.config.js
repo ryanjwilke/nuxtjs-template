@@ -1,5 +1,5 @@
 export default {
-  mode: 'spa',
+  ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -39,6 +39,8 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
+
+  loading: { color: 'blue' },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
