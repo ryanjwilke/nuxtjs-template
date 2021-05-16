@@ -8,7 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt generate",
     "start": "nuxt start",
-    "test": "cypress run",
+    "test": "npm run build && cypress run",
     "cypress:open": "cypress open",
     "cypress:e2e": "cypress open --browser chrome"
   },
