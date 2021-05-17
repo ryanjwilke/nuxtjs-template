@@ -1,0 +1,13 @@
+{
+  "projectId": "axgstv",
+  "viewportHeight": 720,
+  "viewportWidth": 1280,
+  "testFiles": "**/*.spec.js",
+  "fileServerFolder": "dist",
+  "pluginsFile": "tests/plugins/index.js",
+  "supportFile": false,
+  "fixturesFolder": false,
+  "integrationFolder": "tests/integration",
+  "videosFolder": "tests/videos",
+  "screenshotsFolder": "tests/screenshots"
+}

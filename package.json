@@ -7,13 +7,19 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "test": "npm run build && npm run cypress:run",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:e2e": "cypress open --browser chrome"
   },
   "dependencies": {
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
+    "@cypress/vue": "^2.2.3",
+    "cypress": "^7.3.0",
     "sass": "^1.32.13",
     "sass-loader": "^10.1.1"
   }
