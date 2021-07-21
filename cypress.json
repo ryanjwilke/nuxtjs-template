@@ -9,5 +9,6 @@
   "fixturesFolder": false,
   "integrationFolder": "tests/integration",
   "videosFolder": "tests/videos",
-  "screenshotsFolder": "tests/screenshots"
+  "screenshotsFolder": "tests/screenshots",
+  "experimentalStudio": true
 }
