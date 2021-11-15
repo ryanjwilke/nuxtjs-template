@@ -23,6 +23,6 @@
     "cypress": "^7.7.0",
     "sass": "^1.35.2",
     "sass-loader": "^10.1.1",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.5.0"
   }
 }
