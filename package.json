@@ -14,7 +14,7 @@
     "cypress:e2e": "cypress open --browser chrome"
   },
   "dependencies": {
-    "core-js": "^3.15.2",
+    "core-js": "^3.22.3",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
